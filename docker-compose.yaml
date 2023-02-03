@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: container-app
+    image: ivanjuniordocker/conversao-peso:3
+    ports:
+      - 8080:80
